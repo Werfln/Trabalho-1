@@ -1,0 +1,23 @@
+.meubotaoazul{
+	background-color: blue;
+}
+
+.meubotaocinza{
+	background-color: grey;
+}
+
+.meubotaoamarelo{
+	background-color: yellow;
+}
+
+.meubotaverde{
+	background-color: green;
+}
+
+.meubotaovermelho{
+	background-color: red;
+}
+
+.input-mensagem{
+	margin-right: 50px;
+}

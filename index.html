@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="utf-8">
+  <title>Trabalho 1</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta property="og:title" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+	<meta property="og:site_name" content="">
+	<meta property="og:description" content="">
+
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  </br>
+  <div class="col-sm-8 col-sm-offset-2 text-center margin-30 wow fadeIn" data-wow-delay="0.6s">
+    <!-- chamada de função do javascript para alterar o background através dos botões com as respectivas cores -->
+    <button class="btn meubotaoazul" onclick="fundoAzul()">Azul</button>
+    <button class="btn meubotaocinza" onclick="fundoCinza()">Cinza</button>
+    <button class="btn meubotaoamarelo" onclick="fundoAmarelo()">Amarelo</button>
+  </div>
+
+  <div class="col-sm-8 col-sm-offset-2 text-center margin-30 wow fadeIn" id="div" data-wow-delay="0.6s">
+    <h2>Deixe seu recado</h2>
+    </br>
+    <p class="lead">
+      Nome:
+      <input type="text" class="input-nome">
+    </p>
+    <p class="lead">
+      Mensagem:
+      <input type="text" class="input-mensagem">
+    </p>
+    <button class=" btn meubotaverde btn-submit">Enviar</button>
+    </br></br>
+    <ul class="recados"></ul>
+    </br></br></br></br></br></br>
+    <button class="btn meubotaovermelho" onclick="creditos();">Créditos</button>
+  </div>
+
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
